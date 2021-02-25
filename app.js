@@ -10,6 +10,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 
+app.get('/',function(req,res){
+	res.render('index')
+})
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });

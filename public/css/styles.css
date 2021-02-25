@@ -1,0 +1,237 @@
+/*Navbar Section*/
+nav{
+	padding: 7%;
+}
+
+hr{
+  margin: auto;
+  width: 85%;
+  padding: 0.1%;
+}
+
+.nav-link{
+	font-size: 1.2rem;
+}
+
+.navbar-nav{
+	margin-left: 5%;
+}
+
+.navbar-brand{
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.navbar{
+	background-color: #ef4f4f;
+	color : #fff;
+}
+
+.search-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  height: 50px;
+  border-radius: 50px;
+  /*padding: 20px;*/
+}
+
+.search-btn {
+  color: #000;
+  float: right;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 2s;
+}
+
+.fa-search {
+  background: #fff;
+  font-size: 24px;
+  color: #ef4f4f;
+}
+
+.search-input {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: red;
+  font-size: 20px;
+  transition: 0.4s;
+  line-height: 50px;
+  width: 0;
+}
+
+.search-box:hover > .search-input {
+  width: 250px;
+  padding: 0 7px;
+}
+
+/*Title Section*/
+#title{
+  margin-bottom: 0px;
+}
+
+.carousel-item{
+	height: 650px;
+}
+
+/*Categories*/
+
+.categories{
+	width: 100%;
+  margin-top: 0;
+}
+
+#trending,#new-releases, #playlists, #artists{
+  width: 92%;
+  margin: 3% auto;
+}
+
+.card{
+	display: inline-block;
+	margin: 1% 1%;
+  /*text-align: center;*/
+	/*width: 12rem;*/
+  border: none;
+}
+
+.overlay-song{
+  position: absolute;
+  top: 0%;
+  background-color: #696969;
+  height: 54%;
+  width: 95%;
+  opacity: 0;
+  transition: 0.75s ease;
+}
+
+.ctr-song{
+  position: absolute;
+  text-align: center;
+  padding-top: 14%;
+}
+
+.song-div:hover .overlay-song{
+  opacity: 0.7;
+}
+
+.overlay-artist{
+  position: absolute;
+  top: 0%;
+  left: 19%;
+  background-color: #696969;
+  opacity: 0;
+  transition: 0.75s ease;
+  border-radius: 100px;
+  height: 120px;
+  width: 120px;
+}
+
+.ctr-artist{
+  position: absolute;
+  text-align: center;
+  padding-top: 18%;
+}
+
+.artist-div:hover .overlay-artist{
+  opacity: 0.7;
+}
+
+.overlay-playlist{
+  position: absolute;
+  top: 0%;
+  left: 15%;
+  background-color: #696969;
+  opacity: 0;
+  transition: 0.75s ease;
+  height: 120px;
+  width: 140px;
+}
+
+.ctr-playlist{
+  position: absolute;
+  text-align: center;
+  padding-top: 18%;
+}
+
+.playlist-div:hover .overlay-playlist{
+  opacity: 0.7;
+}
+
+.play-btn{
+  color: black;
+}
+
+.play-btn:hover{
+  color: #fff;
+}
+
+.album-name{
+	display: inline-block;
+}
+
+.artist-name{
+	display: inline-block;
+}
+
+.section-heading{
+  margin-left: 1%;
+  font-family: 'Bree Serif', serif;
+}
+
+.song-img{
+  height: 120px;
+  width: 220px;
+}
+
+.artist-card{
+  display: inline-block;
+  width: 190px;
+  text-align: center;
+  margin: 2% 0%;
+}
+
+.artist-img{
+  border-radius: 100px;
+  height: 120px;
+  width: 120px;
+}
+
+.playlist-card{
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  margin: 2% 0%;
+}
+
+.playlist-img{
+  /*border-radius: 100px;*/
+  height: 120px;
+  width: 140px;
+}
+
+/*Footer Section*/
+#footer{
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 5%;
+}
+
+#footer i{
+  margin: 0 1%;
+  color: #fff;
+}
+
+#footer div{
+  margin: 1% 0%;
+}
